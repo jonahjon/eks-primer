@@ -9,4 +9,5 @@ source ./common.sh
 
 export helmdir=$(pwd)
 helm version
-kubectl apply -f modules/helm/helm_rbac.yaml
+helm repo add stable https://kubernetes-charts.storage.googleapis.com
+#kubectl apply -f modules/helm/helm_rbac.yaml

@@ -2,42 +2,34 @@ apiVersion: eksctl.io/v1alpha5
 kind: ClusterConfig
 
 metadata:
-  name: lab
+  name: final
   region: us-west-2
 
 nodeGroups:
-  - name: lab-ng-a
+  - name: final-ng-a
     desiredCapacity: 1
     minSize: 1
     maxSize: 3
     iam:
       withAddonPolicies:
-        imageBuilder: true
         autoScaler: true
-        externalDNS: true
         certManager: true
         appMesh: true
         ebs: true
-        fsx: true
-        efs: true
         albIngress: true
         xRay: true
         cloudWatch: true
     availabilityZones: ["us-west-2a"]
-  - name: lab-ng-b
+  - name: final-ng-b
     desiredCapacity: 1
     minSize: 1
     maxSize: 3
     iam:
       withAddonPolicies:
-        imageBuilder: true
         autoScaler: true
-        externalDNS: true
         certManager: true
         appMesh: true
         ebs: true
-        fsx: true
-        efs: true
         albIngress: true
         xRay: true
         cloudWatch: true
