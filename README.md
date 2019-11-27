@@ -1,0 +1,1 @@
+This is a very opionated, and automated way to get things rolling in an EKS cluster
