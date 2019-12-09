@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft-07/schema#",
+  "title": "Values",
+  "type": "object",
+  "properties": {
+    "grafana": {
+      "required": [
+        "adminPassword"
+      ],
+      "type": "object",
+      "properties": {
+        "adminPassword": {
+          "type": "string",
+          "title": "Admin password",
+          "minLength": 8,
+          "form": true
+        },
+        "ingress": {
+          "type": "object",
+          "properties": {
+            "annotations": {
+              "type": "object",
+              "properties": {
+                "alb.ingress.kubernetes.io/inbound-cidrs": {
+                  "type": "string",
+                  "title": "IP address allowed to internet for grafana",
+                  "format": "ipv4"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

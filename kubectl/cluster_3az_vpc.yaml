@@ -2,34 +2,42 @@ apiVersion: eksctl.io/v1alpha5
 kind: ClusterConfig
 
 metadata:
-  name: final
+  name: github
   region: us-west-2
 
 nodeGroups:
-  - name: final-ng-a
+  - name: github-ng-a
     desiredCapacity: 1
     minSize: 1
     maxSize: 3
     iam:
       withAddonPolicies:
+        imageBuilder: true
         autoScaler: true
+        externalDNS: true
         certManager: true
         appMesh: true
         ebs: true
+        fsx: true
+        efs: true
         albIngress: true
         xRay: true
         cloudWatch: true
     availabilityZones: ["us-west-2a"]
-  - name: final-ng-b
+  - name: github-ng-b
     desiredCapacity: 1
     minSize: 1
     maxSize: 3
     iam:
       withAddonPolicies:
+        imageBuilder: true
         autoScaler: true
+        externalDNS: true
         certManager: true
         appMesh: true
         ebs: true
+        fsx: true
+        efs: true
         albIngress: true
         xRay: true
         cloudWatch: true

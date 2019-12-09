@@ -135,8 +135,8 @@ spec:
             - --stderrthreshold=info
             - --cloud-provider=aws
             - --skip-nodes-with-local-storage=false
-            - --nodes=1:3:eksctl-final-nodegroup-final-ng-a-NodeGroup-1IAB0YC7ECMD6
-            - --nodes=1:3:eksctl-final-nodegroup-final-ng-b-NodeGroup-Y0VH84INVMNW
+            - --nodes=1:3:eksctl-github-nodegroup-github-ng-a-NodeGroup-1FYTHEIRXJRYQ
+            - --nodes=1:3:eksctl-github-nodegroup-github-ng-b-NodeGroup-1XUUOA9PYOUCX
           env:
             - name: AWS_REGION
               value: us-west-2

@@ -1,3 +1,8 @@
 kubectl/cluster_3az_vpc.yaml
 kubectl/cluster_3az_vpc.yaml.j2
 .env
+WIP/*
+WIP/
+0x_logicmonitor.sh
+modules/prom/prometheus-operator/object-store.yaml
+modules/prom/prometheus-operator/object-store.yaml

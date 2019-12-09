@@ -4,6 +4,11 @@ eksctl-exists: ; @eksctl version > /dev/null #brew install weaveworks/tap/eksctl
 pip-exists: ; @which pip > /dev/null
 kubectl-exists: ; @kubectl version > /dev/null
 
+#Load Testing
+# brew install vegeta
+# brew install jaggr
+# brew install jpilot
+
 mytarget: check
 .PHONY: check
 

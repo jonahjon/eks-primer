@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft-07/schema#",
+  "properties": {
+    "adminUser": {
+      "type": "string",
+      "title": "Admin user",
+      "form": true
+    }
+  },
+  "required": [
+    "adminUser"
+  ],
+  "title": "Values",
+  "type": "object"
+}
