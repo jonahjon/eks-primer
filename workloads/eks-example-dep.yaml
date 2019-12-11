@@ -48,11 +48,10 @@ metadata:
 spec:
   type: NodePort
   ports:
-<<<<<<< HEAD
-    - port: 80
-      targetPort: 80
-      protocol: TCP
-      name: service
+  - port: 80
+    targetPort: http
+    protocol: TCP
+    name: http
   selector:
     app: eks-primer
 ---
@@ -79,11 +78,3 @@ spec:
             backend:
               serviceName: eks-primer
               servicePort: 80
-=======
-  - port: 80
-    targetPort: http
-    protocol: TCP
-    name: http
-  selector:
-    app: eks-primer
->>>>>>> 1ab4ed7feccd61e12005ae107612e4b120e0494c
