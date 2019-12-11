@@ -64,9 +64,9 @@ Resources:
     Properties:
       RepositoryName: !Ref GitSourceRepo
 
-  #CodePipelineArtifactBucket:
-  #  Type: AWS::S3::Bucket
-  #  DeletionPolicy: Retain
+  CodePipelineArtifactBucket:
+   Type: AWS::S3::Bucket
+   DeletionPolicy: Retain
 
   #CodePipelineServiceRole:
   #  Type: AWS::IAM::Role
