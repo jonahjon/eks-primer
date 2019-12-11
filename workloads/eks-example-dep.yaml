@@ -46,11 +46,35 @@ metadata:
   labels:
     app: eks-primer
 spec:
-  type: LoadBalancer
+  type: NodePort
   ports:
     - port: 80
-      targetPort: http
+      targetPort: 80
       protocol: TCP
-      name: http
+      name: service
   selector:
     app: eks-primer
+---
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: eks-primer
+  namespace: default
+  labels:
+    app: eks-primer
+  annotations:
+    alb.ingress.kubernetes.io/group.name: prom
+    alb.ingress.kubernetes.io/healthcheck-path: /
+    alb.ingress.kubernetes.io/inbound-cidrs: 205.251.233.0/24
+    alb.ingress.kubernetes.io/listen-ports: '[{"HTTP": 3030}]'
+    alb.ingress.kubernetes.io/scheme: internet-facing
+    alb.ingress.kubernetes.io/success-codes: 200,302
+    kubernetes.io/ingress.class: alb
+spec:
+  rules:
+    - http:
+        paths:
+          - path: /*
+            backend:
+              serviceName: eks-primer
+              servicePort: 80
