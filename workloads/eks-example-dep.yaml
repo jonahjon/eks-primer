@@ -23,7 +23,7 @@ spec:
     spec:
       containers:
       - name: eks-primer
-        image: 164382793440.dkr.ecr.us-west-2.amazonaws.com/eks-primer:a4d1644f
+        image: 164382793440.dkr.ecr.us-west-2.amazonaws.com/eks-primer:a4c390bf
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 80
@@ -48,6 +48,7 @@ metadata:
 spec:
   type: NodePort
   ports:
+<<<<<<< HEAD
     - port: 80
       targetPort: 80
       protocol: TCP
@@ -78,3 +79,11 @@ spec:
             backend:
               serviceName: eks-primer
               servicePort: 80
+=======
+  - port: 80
+    targetPort: http
+    protocol: TCP
+    name: http
+  selector:
+    app: eks-primer
+>>>>>>> 1ab4ed7feccd61e12005ae107612e4b120e0494c
