@@ -1,0 +1,56 @@
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: eks-primer
+  namespace: default
+  labels:
+    app: eks-primer
+  annotations:
+    # Container Image Automated Updates
+    flux.weave.works/automated: "true"
+    # do not apply this manifest on the cluster
+    #flux.weave.works/ignore: "true"
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: eks-primer
+  template:
+    metadata:
+      labels:
+        app: eks-primer
+    spec:
+      containers:
+      - name: eks-primer
+        image: 164382793440.dkr.ecr.us-west-2.amazonaws.com/eks-primer:a4d1644f
+        imagePullPolicy: IfNotPresent
+        ports:
+        - containerPort: 80
+          name: http
+          protocol: TCP
+        livenessProbe:
+          httpGet:
+            path: /
+            port: http
+        readinessProbe:
+          httpGet:
+            path: /
+            port: http
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: eks-primer
+  namespace: default
+  labels:
+    app: eks-primer
+spec:
+  type: LoadBalancer
+  ports:
+    - port: 80
+      targetPort: http
+      protocol: TCP
+      name: http
+  selector:
+    app: eks-primer
