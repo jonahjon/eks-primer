@@ -1,0 +1,440 @@
+[
+    {
+        "icon": "aatrox",
+        "name": "Aatrox",
+        "class": "blademaster",
+        "origin": "light",
+        "cost": 3
+    },
+    {
+        "icon": "annie",
+        "name": "Annie",
+        "class": "inferno",
+        "origin": "summoner",
+        "cost": 4
+    },
+    {
+        "icon": "ashe",
+        "name": "Ashe",
+        "class": "ranger",
+        "origin": "crystal",
+        "cost": 4
+    },
+    {
+        "icon": "azir",
+        "name": "Azir",
+        "class": "summoner",
+        "origin": "desert",
+        "cost": 3
+    },
+    {
+        "icon": "brand",
+        "name": "Brand",
+        "class": "mage",
+        "origin": "inferno",
+        "cost": 4
+    },
+    {
+        "icon": "braum",
+        "name": "Braum",
+        "class": "warden",
+        "origin": "glacial",
+        "cost": 2
+    },
+    {
+        "icon": "diana",
+        "name": "Diana",
+        "class": "assassin",
+        "origin": "inferno",
+        "cost": 1
+    },
+    {
+        "icon": "drmundo",
+        "name": "DrMundo",
+        "class": "berserker",
+        "origin": "poison",
+        "cost": 3
+    },
+    {
+        "icon": "ezreal",
+        "name": "Ezreal",
+        "class": "ranger",
+        "origin": "glacial",
+        "cost": 3
+    },
+    {
+        "icon": "ivern",
+        "name": "Ivern",
+        "class": "druid",
+        "origin": "woodland",
+        "cost": 1
+    },
+    {
+        "icon": "janna",
+        "name": "Janna",
+        "class": "mystic",
+        "origin": "cloud",
+        "cost": 4
+    },
+    {
+        "icon": "jax",
+        "name": "Jax",
+        "class": "berserker",
+        "origin": "light",
+        "cost": 2
+    },
+    {
+        "icon": "khazix",
+        "name": "Khazix",
+        "class": "assassin",
+        "origin": "desert",
+        "cost": 4
+    },
+    {
+        "icon": "kindred",
+        "name": "Kindred",
+        "class": "ranger",
+        "origin": "shadow",
+        "alt_origin": "inferno",
+        "cost": 3
+    },
+    {
+        "icon": "kogmaw",
+        "name": "KogMaw",
+        "class": "predator",
+        "origin": "poison",
+        "cost": 1
+    },
+    {
+        "icon": "leblanc",
+        "name": "LeBlanc",
+        "class": "mage",
+        "origin": "woodland",
+        "cost": 2
+    },
+    {
+        "icon": "lux",
+        "name": "Lux",
+        "class": "avatar",
+        "origin": "cloud",
+        "cost": 7
+    },
+    {
+        "icon": "lux",
+        "name": "Lux",
+        "class": "avatar",
+        "origin": "crystal",
+        "cost": 7
+    },
+    {
+        "icon": "lux",
+        "name": "Lux",
+        "class": "avatar",
+        "origin": "electric",
+        "cost": 7
+    },
+    {
+        "icon": "lux",
+        "name": "Lux",
+        "class": "avatar",
+        "origin": "glacial",
+        "cost": 7
+    },
+    {
+        "icon": "lux",
+        "name": "Lux",
+        "class": "avatar",
+        "origin": "inferno",
+        "cost": 7
+    },
+    {
+        "icon": "lux",
+        "name": "Lux",
+        "class": "avatar",
+        "origin": "light",
+        "cost": 7
+    },
+    {
+        "icon": "lux",
+        "name": "Lux",
+        "class": "avatar",
+        "origin": "ocean",
+        "cost": 7
+    },
+    {
+        "icon": "lux",
+        "name": "Lux",
+        "class": "avatar",
+        "origin": "shadow",
+        "cost": 7
+    },
+    {
+        "icon": "lux",
+        "name": "Lux",
+        "class": "avatar",
+        "origin": "steel",
+        "cost": 7
+    },
+    {
+        "icon": "lux",
+        "name": "Lux",
+        "class": "avatar",
+        "origin": "woodland",
+        "cost": 7
+    },
+    {
+        "icon": "malphite",
+        "name": "Malphite",
+        "class": "warden",
+        "origin": "mountain",
+        "cost": 4
+    },
+    {
+        "icon": "malzahar",
+        "name": "Malzahar",
+        "class": "summoner",
+        "origin": "shadow",
+        "cost": 2
+    },
+    {
+        "icon": "maokai",
+        "name": "Maokai",
+        "class": "druid",
+        "origin": "woodland",
+        "cost": 1
+    },
+    {
+        "icon": "masteryi",
+        "name": "MasterYi",
+        "class": "blademaster",
+        "alt_class": "mystic",
+        "origin": "shadow",
+        "cost": 5
+    },
+    {
+        "icon": "nami",
+        "name": "Nami",
+        "class": "mystic",
+        "origin": "ocean",
+        "cost": 5
+    },
+    {
+        "icon": "nasus",
+        "name": "Nasus",
+        "class": "warden",
+        "origin": "light",
+        "cost": 1
+    },
+    {
+        "icon": "neeko",
+        "name": "Neeko",
+        "class": "druid",
+        "origin": "woodland",
+        "cost": 2
+    },
+    {
+        "icon": "nocturne",
+        "name": "Nocturne",
+        "class": "assassin",
+        "origin": "steel",
+        "cost": 3
+    },
+    {
+        "icon": "olaf",
+        "name": "Olaf",
+        "class": "berserker",
+        "origin": "glacial",
+        "cost": 4
+    },
+    {
+        "icon": "ornn",
+        "name": "Ornn",
+        "class": "warden",
+        "origin": "electric",
+        "cost": 1
+    },
+    {
+        "icon": "qiyana",
+        "name": "Qiyana",
+        "class": "assassin",
+        "origin": "cloud",
+        "cost": 3
+    },
+    {
+        "icon": "qiyana",
+        "name": "Qiyana",
+        "class": "assassin",
+        "origin": "inferno",
+        "cost": 3
+    },
+    {
+        "icon": "qiyana",
+        "name": "Qiyana",
+        "class": "assassin",
+        "origin": "mountain",
+        "cost": 3
+    },
+    {
+        "icon": "qiyana",
+        "name": "Qiyana",
+        "class": "assassin",
+        "origin": "ocean",
+        "cost": 3
+    },
+    {
+        "icon": "reksai",
+        "name": "RekSai",
+        "class": "predator",
+        "origin": "steel",
+        "cost": 2
+    },
+    {
+        "icon": "renekton",
+        "name": "Renekton",
+        "class": "berserker",
+        "origin": "desert",
+        "cost": 1
+    },
+    {
+        "icon": "singed",
+        "name": "Singed",
+        "class": "alchemist",
+        "origin": "poison",
+        "cost": 5
+    },
+    {
+        "icon": "sion",
+        "name": "Sion",
+        "class": "berserker",
+        "origin": "shadow",
+        "cost": 3
+    },
+    {
+        "icon": "sivir",
+        "name": "Sivir",
+        "class": "blademaster",
+        "origin": "desert",
+        "cost": 3
+    },
+    {
+        "icon": "skarner",
+        "name": "Skarner",
+        "class": "predator",
+        "origin": "crystal",
+        "cost": 2
+    },
+    {
+        "icon": "soraka",
+        "name": "Soraka",
+        "class": "mystic",
+        "origin": "light",
+        "cost": 3
+    },
+    {
+        "icon": "syndra",
+        "name": "Syndra",
+        "class": "mage",
+        "origin": "ocean",
+        "cost": 2
+    },
+    {
+        "icon": "taliyah",
+        "name": "Taliyah",
+        "class": "mage",
+        "origin": "mountain",
+        "cost": 1
+    },
+    {
+        "icon": "taric",
+        "name": "Taric",
+        "class": "warden",
+        "origin": "crystal",
+        "cost": 5
+    },
+    {
+        "icon": "thresh",
+        "name": "Thresh",
+        "class": "warden",
+        "origin": "ocean",
+        "cost": 2
+    },
+    {
+        "icon": "twitch",
+        "name": "Twitch",
+        "class": "ranger",
+        "origin": "poison",
+        "cost": 4
+    },
+    {
+        "icon": "varus",
+        "name": "Varus",
+        "class": "ranger",
+        "origin": "inferno",
+        "cost": 2
+    },
+    {
+        "icon": "vayne",
+        "name": "Vayne",
+        "class": "ranger",
+        "origin": "light",
+        "cost": 1
+    },
+    {
+        "icon": "veigar",
+        "name": "Veigar",
+        "class": "mage",
+        "origin": "shadow",
+        "cost": 3
+    },
+    {
+        "icon": "vladimir",
+        "name": "Vladimir",
+        "class": "mage",
+        "origin": "ocean",
+        "cost": 1
+    },
+    {
+        "icon": "volibear",
+        "name": "Volibear",
+        "class": "berserker",
+        "origin": "glacial",
+        "alt_origin": "electric",
+        "cost": 2
+    },
+    {
+        "icon": "warwick",
+        "name": "Warwick",
+        "class": "predator",
+        "origin": "glacial",
+        "cost": 1
+    },
+    {
+        "icon": "yasuo",
+        "name": "Yasuo",
+        "class": "blademaster",
+        "origin": "cloud",
+        "cost": 2
+    },
+    {
+        "icon": "yorick",
+        "name": "Yorick",
+        "class": "summoner",
+        "origin": "light",
+        "cost": 4
+    },
+    {
+        "icon": "zed",
+        "name": "Zed",
+        "class": "assassin",
+        "alt_class": "summoner",
+        "origin": "electric",
+        "cost": 5
+    },
+    {
+        "icon": "zyra",
+        "name": "Zyra",
+        "class": "summoner",
+        "origin": "inferno",
+        "cost": 1
+    }
+]

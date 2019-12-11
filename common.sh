@@ -7,4 +7,5 @@ export iamrole=$IAM_ROLE
 export KUBECTL_FILE=$KUBECTL_FILE
 export thanos_bucket=$THANOS_BUCKET
 export account_id=$ACCOUNT_ID
+export GITHUB_TOKEN=$GITHUB_TOKEN
 export pwd=$(pwd)

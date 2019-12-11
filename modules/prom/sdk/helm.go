@@ -52,5 +52,10 @@ func main() {
 		} else {
 			log.Printf("Linting passed for %s", tt.name)
 		}
+		// if crds := tt.CRDs(); len(crds) > 0 {
+		// 	log.Printf("Found CRDS: %v", crds[0])
+		// } else {
+		// 	log.Printf("Did not find CRDS")
+		// }
 	}
 }

@@ -1,4 +1,4 @@
-allow_k8s_contexts('arn:aws:eks:us-west-2:164382793440:cluster/final')
+allow_k8s_contexts('arn:aws:eks:us-west-2:164382793440:cluster/github')
 print('Hello Tiltfile')
 yaml = helm(
   'modules/prom/prometheus-operator',
