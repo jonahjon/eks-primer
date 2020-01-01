@@ -23,7 +23,7 @@ spec:
     spec:
       containers:
       - name: eks-primer
-        image: 164382793440.dkr.ecr.us-west-2.amazonaws.com/eks-primer:325db797
+        image: 164382793440.dkr.ecr.us-west-2.amazonaws.com/eks-primer:471f0e29
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 80
