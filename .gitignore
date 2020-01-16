@@ -9,6 +9,7 @@ modules/prom/prometheus-operator/object-store.yaml
 modules/ignite-your-firecracker/*
 modules/appmeshworkshop/*
 modules/kubebuilder/*
+modules/kubeflow/github/.cache
 15_kubebuilder.sh
 17_appmesh.sh
 
