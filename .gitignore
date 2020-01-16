@@ -6,3 +6,12 @@ WIP/
 0x_logicmonitor.sh
 modules/prom/prometheus-operator/object-store.yaml
 modules/prom/prometheus-operator/object-store.yaml
+modules/ignite-your-firecracker/*
+modules/appmeshworkshop/*
+modules/kubebuilder/*
+15_kubebuilder.sh
+17_appmesh.sh
+
+
+
+.DS_Store

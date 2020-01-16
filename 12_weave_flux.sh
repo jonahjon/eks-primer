@@ -32,3 +32,5 @@ fluxctl version
 fluxctl identity --k8s-fwd-ns default
 
 j2 $pwd/workloads/eks-example-dep.yaml.j2 > $pwd/workloads/eks-example-dep.yaml --undefined
+
+cd $pwd
