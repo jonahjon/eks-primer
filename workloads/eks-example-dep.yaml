@@ -23,7 +23,7 @@ spec:
     spec:
       containers:
       - name: eks-primer
-        image: 164382793440.dkr.ecr.us-west-2.amazonaws.com/eks-primer:1ab4ed7f
+        image: 164382793440.dkr.ecr.us-west-2.amazonaws.com/eks-primer:23326921
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 80
@@ -72,9 +72,9 @@ metadata:
     kubernetes.io/ingress.class: alb
 spec:
   rules:
-    - http:
-        paths:
-          - path: /*
-            backend:
-              serviceName: eks-primer
-              servicePort: 80
+  - http:
+      paths:
+      - path: /*
+        backend:
+          serviceName: eks-primer
+          servicePort: 80
